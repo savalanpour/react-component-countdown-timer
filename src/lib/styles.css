@@ -1,0 +1,362 @@
+.root .left {
+  direction: ltr;
+}
+.root .inline.left {
+  display: inline-flex;
+  direction: rtl;
+}
+.root .inline.responsive {
+  width: auto;
+  display: flex;
+}
+.root .countBox.responsive {
+  width: auto;
+}
+.root .countBox {
+  display: flex;
+  width: 215px;
+}
+.root .countBox .countBoxItem {
+  flex: 1;
+}
+.root .countBox .countBoxItem .lable {
+  font-size: 12px;
+  text-align: center;
+}
+.root .countBox .countBoxItem .count {
+  text-align: center;
+}
+.root .inline {
+  display: flex;
+  width: 215px;
+}
+.root .inline .countBoxItem {
+  flex: 1;
+}
+.root .inline .countBoxItem .lable {
+  font-size: 12px;
+  text-align: center;
+}
+.root .inline .countBoxItem .count {
+  text-align: center;
+}
+.root .split {
+  line-height: 74px;
+  height: 50px;
+}
+.root .small {
+  width: 125px;
+  font-size: 14px;
+}
+.root .small .lable {
+  font-size: 10px;
+}
+.root .small .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 14px;
+}
+.root .small .count {
+  font-size: 14px;
+}
+.root .small.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root .small.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root .small.border {
+  width: 145px;
+}
+.root .small.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root .small.border .split {
+  line-height: 66px;
+  height: 45px;
+}
+.root .inline.small .count {
+  display: inline-block;
+}
+.root .inline.small .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 14px;
+}
+.root .inline.small.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root .inline.small.left {
+  direction: rtl;
+}
+.root .inline.small.responsive .split {
+  line-height: 30px;
+  height: 30px;
+}
+.root .inline.small.border.responsive .split {
+  line-height: 35px;
+  height: 30px;
+}
+.root .countBox.small .split {
+  line-height: 75px;
+  height: 50px;
+  font-size: 14px;
+}
+.root .countBox.small.right {
+  display: inline-flex;
+  direction: rtl;
+}
+.root .countBox.small.left {
+  direction: ltr;
+}
+.root .countBox.small.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root .countBox.small.border.responsive .split {
+  line-height: 65px;
+  height: 45px;
+}
+.root .middle {
+  width: 155px;
+  font-size: 18px;
+}
+.root .middle .lable {
+  font-size: 12px;
+}
+.root .middle .count {
+  font-size: 18px;
+}
+.root .middle .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 18px;
+}
+.root .middle.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root .middle.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root .middle.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root .middle.border {
+  width: 160px;
+}
+.root .middle.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root .middle.border .split {
+  line-height: 66px;
+  height: 45px;
+}
+.root .inline.middle .count {
+  display: inline-block;
+}
+.root .inline.middle.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root .inline.middle.left {
+  direction: rtl;
+}
+.root .inline.middle.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root .inline.middle.border.responsive .split {
+  line-height: 35px;
+  height: 30px;
+}
+.root .countBox.middle.right {
+  display: inline-flex;
+  direction: rtl;
+}
+.root .countBox.middle.left {
+  direction: ltr;
+}
+.root .countBox.middle.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root .countBox.middle.border.responsive .split {
+  line-height: 65px;
+  height: 45px;
+}
+.root .large {
+  width: 200px;
+  font-size: 22px;
+}
+.root .large .lable {
+  font-size: 12px;
+}
+.root .large .count {
+  font-size: 22px;
+}
+.root .large .split {
+  font-size: 22px;
+}
+.root .large.right {
+  direction: ltr;
+}
+.root .large.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root .large.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root .large.border {
+  width: 185px;
+}
+.root .large.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root .large.border .split {
+  line-height: 75px;
+  height: 45px;
+}
+.root .inline.large .count {
+  display: inline-block;
+}
+.root .inline.large .split {
+  line-height: 33px;
+  height: 45px;
+}
+.root .inline.large.right {
+  display: inline-block;
+}
+.root .inline.large.left {
+  direction: rtl;
+}
+.root .inline.large.responsive .split {
+  line-height: 40px;
+  height: 40px;
+}
+.root .inline.large.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root .countBox.large .split {
+  line-height: 68px;
+  height: 45px;
+}
+.root .countBox.large.right {
+  display: inline-flex;
+}
+.root .countBox.large.left {
+  direction: ltr;
+}
+.root .countBox.large.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root .countBox.large.border.responsive .split {
+  line-height: 70px;
+  height: 45px;
+}
+.root .big .count {
+  font-size: 26px;
+}
+.root .big .split {
+  height: 45px;
+  font-size: 26px;
+}
+.root .big.right {
+  direction: ltr;
+}
+.root .big.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root .big.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root .big.border {
+  width: 204px;
+}
+.root .big.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root .big.border .split {
+  line-height: 75px;
+  height: 45px;
+}
+.root .big.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root .inline.big .count {
+  display: inline-block;
+}
+.root .inline.big .split {
+  line-height: 33px;
+}
+.root .inline.big.right {
+  display: inline-block;
+}
+.root .inline.big.left {
+  direction: rtl;
+}
+.root .inline.big.responsive .split {
+  line-height: 40px;
+  height: 40px;
+}
+.root .inline.big.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root .countBox.big .split {
+  line-height: 68px;
+}
+.root .countBox.big.right {
+  display: inline-flex;
+}
+.root .countBox.big.left {
+  direction: ltr;
+}
+.root .countBox.big.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root .countBox.big.border.responsive .split {
+  line-height: 75px;
+  height: 50px;
+}

@@ -1,0 +1,394 @@
+.root-count-down-timer .left {
+  direction: ltr;
+}
+.root-count-down-timer .inline.left {
+  display: inline-flex;
+  direction: rtl;
+}
+.root-count-down-timer .inline.responsive {
+  width: auto;
+  display: flex;
+}
+.root-count-down-timer .countBox.responsive {
+  width: auto;
+}
+.root-count-down-timer .countBox {
+  display: flex;
+  width: 215px;
+}
+.root-count-down-timer .countBox .countBoxItem {
+  flex: 1;
+}
+.root-count-down-timer .countBox .countBoxItem .lable {
+  font-size: 12px;
+  text-align: center;
+}
+.root-count-down-timer .countBox .countBoxItem .count {
+  text-align: center;
+}
+.root-count-down-timer .inline {
+  display: flex;
+  width: 215px;
+}
+.root-count-down-timer .inline .countBoxItem {
+  flex: 1;
+}
+.root-count-down-timer .inline .countBoxItem .lable {
+  font-size: 12px;
+  text-align: center;
+}
+.root-count-down-timer .inline .countBoxItem .count {
+  text-align: center;
+}
+.root-count-down-timer .split {
+  line-height: 74px;
+  height: 50px;
+}
+.root-count-down-timer .small {
+  width: 125px;
+  font-size: 14px;
+}
+.root-count-down-timer .small .lable {
+  font-size: 10px;
+}
+.root-count-down-timer .small .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 14px;
+}
+.root-count-down-timer .small .count {
+  font-size: 14px;
+}
+.root-count-down-timer .small.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root-count-down-timer .small.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .small.border {
+  width: 145px;
+}
+.root-count-down-timer .small.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .small.border .split {
+  line-height: 66px;
+  height: 45px;
+}
+.root-count-down-timer .inline.small .count {
+  display: inline-block;
+}
+.root-count-down-timer .inline.small .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 14px;
+}
+.root-count-down-timer .inline.small.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root-count-down-timer .inline.small.left {
+  direction: rtl;
+}
+.root-count-down-timer .inline.small.responsive .split {
+  line-height: 30px;
+  height: 30px;
+}
+.root-count-down-timer .inline.small.border.responsive .split {
+  line-height: 35px;
+  height: 30px;
+}
+.root-count-down-timer .countBox.small .split {
+  line-height: 75px;
+  height: 50px;
+  font-size: 14px;
+}
+.root-count-down-timer .countBox.small.right {
+  display: inline-flex;
+  direction: rtl;
+}
+.root-count-down-timer .countBox.small.left {
+  direction: ltr;
+}
+.root-count-down-timer .countBox.small.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root-count-down-timer .countBox.small.border.responsive .split {
+  line-height: 65px;
+  height: 45px;
+}
+.root-count-down-timer .middle {
+  width: 155px;
+  font-size: 18px;
+}
+.root-count-down-timer .middle .lable {
+  font-size: 12px;
+}
+.root-count-down-timer .middle .count {
+  font-size: 18px;
+}
+.root-count-down-timer .middle .split {
+  line-height: 33px;
+  height: 45px;
+  font-size: 18px;
+}
+.root-count-down-timer .middle.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root-count-down-timer .middle.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root-count-down-timer .middle.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .middle.border {
+  width: 160px;
+}
+.root-count-down-timer .middle.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .middle.border .split {
+  line-height: 66px;
+  height: 45px;
+}
+.root-count-down-timer .inline.middle .count {
+  display: inline-block;
+}
+.root-count-down-timer .inline.middle.right {
+  display: inline-block;
+  direction: ltr;
+}
+.root-count-down-timer .inline.middle.left {
+  direction: rtl;
+}
+.root-count-down-timer .inline.middle.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root-count-down-timer .inline.middle.border.responsive .split {
+  line-height: 35px;
+  height: 30px;
+}
+.root-count-down-timer .countBox.middle.right {
+  display: inline-flex;
+  direction: rtl;
+}
+.root-count-down-timer .countBox.middle.left {
+  direction: ltr;
+}
+.root-count-down-timer .countBox.middle.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root-count-down-timer .countBox.middle.border.responsive .split {
+  line-height: 65px;
+  height: 45px;
+}
+.root-count-down-timer .large {
+  width: 200px;
+  font-size: 22px;
+}
+.root-count-down-timer .large .lable {
+  font-size: 12px;
+}
+.root-count-down-timer .large .count {
+  font-size: 22px;
+}
+.root-count-down-timer .large .split {
+  font-size: 22px;
+}
+.root-count-down-timer .large.right {
+  direction: ltr;
+}
+.root-count-down-timer .large.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root-count-down-timer .large.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .large.border {
+  width: 185px;
+}
+.root-count-down-timer .large.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .large.border .split {
+  line-height: 75px;
+  height: 45px;
+}
+.root-count-down-timer .inline.large .count {
+  display: inline-block;
+}
+.root-count-down-timer .inline.large .split {
+  line-height: 33px;
+  height: 45px;
+}
+.root-count-down-timer .inline.large.right {
+  display: inline-block;
+}
+.root-count-down-timer .inline.large.left {
+  direction: rtl;
+}
+.root-count-down-timer .inline.large.responsive .split {
+  line-height: 40px;
+  height: 40px;
+}
+.root-count-down-timer .inline.large.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root-count-down-timer .countBox.large .split {
+  line-height: 68px;
+  height: 45px;
+}
+.root-count-down-timer .countBox.large.right {
+  display: inline-flex;
+}
+.root-count-down-timer .countBox.large.left {
+  direction: ltr;
+}
+.root-count-down-timer .countBox.large.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root-count-down-timer .countBox.large.border.responsive .split {
+  line-height: 70px;
+  height: 45px;
+}
+.root-count-down-timer .big .count {
+  font-size: 26px;
+}
+.root-count-down-timer .big .split {
+  height: 45px;
+  font-size: 26px;
+}
+.root-count-down-timer .big.right {
+  direction: ltr;
+}
+.root-count-down-timer .big.responsive {
+  display: flex !important;
+  width: auto !important;
+}
+.root-count-down-timer .big.responsive .count {
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .big.border {
+  width: 204px;
+}
+.root-count-down-timer .big.border .count {
+  line-height: 32px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+}
+.root-count-down-timer .big.border .split {
+  line-height: 75px;
+  height: 45px;
+}
+.root-count-down-timer .big.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root-count-down-timer .inline.big .count {
+  display: inline-block;
+}
+.root-count-down-timer .inline.big .split {
+  line-height: 33px;
+}
+.root-count-down-timer .inline.big.right {
+  display: inline-block;
+}
+.root-count-down-timer .inline.big.left {
+  direction: rtl;
+}
+.root-count-down-timer .inline.big.responsive .split {
+  line-height: 40px;
+  height: 40px;
+}
+.root-count-down-timer .inline.big.border.responsive .split {
+  line-height: 35px;
+  height: 35px;
+}
+.root-count-down-timer .countBox.big .split {
+  line-height: 68px;
+}
+.root-count-down-timer .countBox.big.right {
+  display: inline-flex;
+}
+.root-count-down-timer .countBox.big.left {
+  direction: ltr;
+}
+.root-count-down-timer .countBox.big.responsive .split {
+  line-height: 55px;
+  height: 45px;
+}
+.root-count-down-timer .countBox.big.border.responsive .split {
+  line-height: 75px;
+  height: 50px;
+}
+
+.count-down-react-box .count-down-react .title {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 50px 0 0;
+  background-color: #4db1c2;
+  color: #fff;
+}
+
+.count-down-react {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}
+
+.count-down-react pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.count-down-react-box .count-down-react .root-count-down-timer {
+  margin: 15px 0;
+}

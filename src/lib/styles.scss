@@ -1,0 +1,530 @@
+// stylelint-disable no-descending-specificity
+.root-count-down-timer {
+  .left {
+    direction: ltr;
+  }
+
+  .inline.left {
+    display: inline-flex;
+    direction: rtl;
+  }
+
+  .inline.responsive {
+    width: auto;
+    display: flex;
+  }
+
+  .countBox.responsive {
+    width: auto;
+  }
+
+  .countBox {
+    display: flex;
+    width: 215px;
+
+    .countBoxItem {
+      flex: 1;
+
+      .lable {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .count {
+        text-align: center;
+      }
+    }
+  }
+
+  .inline {
+    display: flex;
+    width: 215px;
+
+    .countBoxItem {
+      flex: 1;
+
+      .lable {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .count {
+        text-align: center;
+      }
+    }
+  }
+
+  .split {
+    line-height: 74px;
+    height: 50px;
+  }
+
+  .small {
+    width: 125px;
+    font-size: 14px;
+
+    .lable {
+      font-size: 10px;
+    }
+
+    .split {
+      line-height: 33px;
+      height: 45px;
+      font-size: 14px;
+    }
+
+    .count {
+      font-size: 14px;
+    }
+
+    &.responsive {
+      display: flex !important;
+      width: auto !important;
+
+      .count {
+        flex: 1;
+        text-align: center;
+      }
+    }
+
+    &.border {
+      width: 145px;
+
+      .count {
+        line-height: 32px;
+        height: 30px;
+        border: 1px solid #cfcfcf;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 0 5px;
+        flex: 1;
+        text-align: center;
+      }
+
+      .split {
+        line-height: 66px;
+        height: 45px;
+      }
+    }
+  }
+
+  .inline.small {
+    .count {
+      display: inline-block;
+    }
+
+    .split {
+      line-height: 33px;
+      height: 45px;
+      font-size: 14px;
+    }
+
+    &.right {
+      display: inline-block;
+      text-align: right;
+      direction: ltr;
+    }
+
+    &.left {
+      direction: rtl;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 30px;
+        height: 30px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 35px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .countBox.small {
+    .split {
+      line-height: 75px;
+      height: 50px;
+      font-size: 14px;
+    }
+
+    &.right {
+      display: inline-flex;
+      direction: rtl;
+    }
+
+    &.left {
+      direction: ltr;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 55px;
+        height: 45px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 65px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+  .middle {
+    width: 155px;
+    font-size: 18px;
+
+    .lable {
+      font-size: 12px;
+    }
+
+    .count {
+      font-size: 18px;
+    }
+
+    .split {
+      line-height: 33px;
+      height: 45px;
+      font-size: 18px;
+    }
+
+    &.right {
+      display: inline-block;
+      direction: ltr;
+      text-align: right;
+    }
+
+    &.responsive {
+      display: flex !important;
+      width: auto !important;
+
+      .count {
+        flex: 1;
+        text-align: center;
+      }
+    }
+
+    &.border {
+      width: 160px;
+
+      .count {
+        line-height: 32px;
+        height: 30px;
+        border: 1px solid #cfcfcf;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 0 5px;
+        flex: 1;
+        text-align: center;
+      }
+
+      .split {
+        line-height: 66px;
+        height: 45px;
+      }
+    }
+  }
+
+  .inline.middle {
+    .count {
+      display: inline-block;
+    }
+
+    &.right {
+      display: inline-block;
+      direction: ltr;
+      text-align: right;
+    }
+
+    &.left {
+      direction: rtl;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 35px;
+        height: 35px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 35px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .countBox.middle {
+    &.right {
+      display: inline-flex;
+      direction: rtl;
+    }
+
+    &.left {
+      direction: ltr;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 55px;
+        height: 45px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 65px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+  .large {
+    width: 200px;
+    font-size: 22px;
+
+    .lable {
+      font-size: 12px;
+    }
+
+    .count {
+      font-size: 22px;
+    }
+
+    .split {
+      font-size: 22px;
+    }
+
+    &.right {
+      direction: ltr;
+    }
+
+    &.responsive {
+      display: flex !important;
+      width: auto !important;
+
+      .count {
+        flex: 1;
+        text-align: center;
+      }
+    }
+
+    &.border {
+      width: 185px;
+
+      .count {
+        line-height: 32px;
+        height: 30px;
+        border: 1px solid #cfcfcf;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 0 5px;
+        flex: 1;
+        text-align: center;
+      }
+
+      .split {
+        line-height: 75px;
+        height: 45px;
+      }
+    }
+  }
+
+  .inline.large {
+    .count {
+      display: inline-block;
+    }
+
+    .split {
+      line-height: 33px;
+      height: 45px;
+    }
+
+    &.right {
+      display: inline-block;
+      text-align: right;
+    }
+
+    &.left {
+      direction: rtl;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 40px;
+        height: 40px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  .countBox.large {
+    .split {
+      line-height: 68px;
+      height: 45px;
+    }
+
+    &.right {
+      display: inline-flex;
+    }
+
+    &.left {
+      direction: ltr;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 55px;
+        height: 45px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 70px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+  .big {
+    .count {
+      font-size: 26px;
+    }
+
+    .split {
+      height: 45px;
+      font-size: 26px;
+    }
+
+    &.right {
+      direction: ltr;
+    }
+
+    &.responsive {
+      display: flex !important;
+      width: auto !important;
+
+      .count {
+        flex: 1;
+        text-align: center;
+      }
+    }
+
+    &.border {
+      width: 204px;
+
+      .count {
+        line-height: 32px;
+        height: 30px;
+        border: 1px solid #cfcfcf;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 0 5px;
+        flex: 1;
+        text-align: center;
+      }
+
+      .split {
+        line-height: 75px;
+        height: 45px;
+      }
+
+      &.responsive {
+        .split {
+          line-height: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  .inline.big {
+    .count {
+      display: inline-block;
+    }
+
+    .split {
+      line-height: 33px;
+    }
+
+    &.right {
+      display: inline-block;
+      text-align: right;
+    }
+
+    &.left {
+      direction: rtl;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 40px;
+        height: 40px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  .countBox.big {
+    .split {
+      line-height: 68px;
+    }
+
+    &.right {
+      display: inline-flex;
+    }
+
+    &.left {
+      direction: ltr;
+    }
+
+    &.responsive {
+      .split {
+        line-height: 55px;
+        height: 45px;
+      }
+    }
+
+    &.border {
+      &.responsive {
+        .split {
+          line-height: 75px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
