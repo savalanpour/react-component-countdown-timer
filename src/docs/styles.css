@@ -1,76 +1,76 @@
-.root-react-countdown-timer .left {
+.left {
   direction: ltr;
 }
-.root-react-countdown-timer .inline.left {
+.inline.left {
   display: inline-flex;
   direction: rtl;
 }
-.root-react-countdown-timer .inline.responsive {
+.inline.responsive {
   width: auto;
   display: flex;
 }
-.root-react-countdown-timer .countBox.responsive {
+.countBox.responsive {
   width: auto;
 }
-.root-react-countdown-timer .countBox {
+.countBox {
   display: flex;
   width: 215px;
 }
-.root-react-countdown-timer .countBox .countBoxItem {
+.countBox .countBoxItem {
   flex: 1;
 }
-.root-react-countdown-timer .countBox .countBoxItem .lable {
+.countBox .countBoxItem .lable {
   font-size: 12px;
   text-align: center;
 }
-.root-react-countdown-timer .countBox .countBoxItem .count {
+.countBox .countBoxItem .count {
   text-align: center;
 }
-.root-react-countdown-timer .inline {
+.inline {
   display: flex;
   width: 215px;
 }
-.root-react-countdown-timer .inline .countBoxItem {
+.inline .countBoxItem {
   flex: 1;
 }
-.root-react-countdown-timer .inline .countBoxItem .lable {
+.inline .countBoxItem .lable {
   font-size: 12px;
   text-align: center;
 }
-.root-react-countdown-timer .inline .countBoxItem .count {
+.inline .countBoxItem .count {
   text-align: center;
 }
-.root-react-countdown-timer .split {
+.split {
   line-height: 74px;
   height: 50px;
 }
-.root-react-countdown-timer .small {
+.small {
   width: 125px;
   font-size: 14px;
 }
-.root-react-countdown-timer .small .lable {
+.small .lable {
   font-size: 10px;
 }
-.root-react-countdown-timer .small .split {
+.small .split {
   line-height: 33px;
   height: 45px;
   font-size: 14px;
 }
-.root-react-countdown-timer .small .count {
+.small .count {
   font-size: 14px;
 }
-.root-react-countdown-timer .small.responsive {
+.small.responsive {
   display: flex !important;
   width: auto !important;
 }
-.root-react-countdown-timer .small.responsive .count {
+.small.responsive .count {
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .small.border {
+.small.border {
   width: 145px;
 }
-.root-react-countdown-timer .small.border .count {
+.small.border .count {
   line-height: 32px;
   height: 30px;
   border: 1px solid #cfcfcf;
@@ -80,84 +80,84 @@
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .small.border .split {
+.small.border .split {
   line-height: 66px;
   height: 45px;
 }
-.root-react-countdown-timer .inline.small .count {
+.inline.small .count {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.small .split {
+.inline.small .split {
   line-height: 33px;
   height: 45px;
   font-size: 14px;
 }
-.root-react-countdown-timer .inline.small.right {
+.inline.small.right {
   display: inline-block;
   direction: ltr;
 }
-.root-react-countdown-timer .inline.small.left {
+.inline.small.left {
   direction: rtl;
 }
-.root-react-countdown-timer .inline.small.responsive .split {
+.inline.small.responsive .split {
   line-height: 30px;
   height: 30px;
 }
-.root-react-countdown-timer .inline.small.border.responsive .split {
+.inline.small.border.responsive .split {
   line-height: 35px;
   height: 30px;
 }
-.root-react-countdown-timer .countBox.small .split {
+.countBox.small .split {
   line-height: 75px;
   height: 50px;
   font-size: 14px;
 }
-.root-react-countdown-timer .countBox.small.right {
+.countBox.small.right {
   display: inline-flex;
   direction: rtl;
 }
-.root-react-countdown-timer .countBox.small.left {
+.countBox.small.left {
   direction: ltr;
 }
-.root-react-countdown-timer .countBox.small.responsive .split {
+.countBox.small.responsive .split {
   line-height: 55px;
   height: 45px;
 }
-.root-react-countdown-timer .countBox.small.border.responsive .split {
+.countBox.small.border.responsive .split {
   line-height: 65px;
   height: 45px;
 }
-.root-react-countdown-timer .middle {
+.middle {
   width: 155px;
   font-size: 18px;
 }
-.root-react-countdown-timer .middle .lable {
+.middle .lable {
   font-size: 12px;
 }
-.root-react-countdown-timer .middle .count {
+.middle .count {
   font-size: 18px;
 }
-.root-react-countdown-timer .middle .split {
+.middle .split {
   line-height: 33px;
   height: 45px;
   font-size: 18px;
 }
-.root-react-countdown-timer .middle.right {
+.middle.right {
   display: inline-block;
   direction: ltr;
 }
-.root-react-countdown-timer .middle.responsive {
+.middle.responsive {
   display: flex !important;
   width: auto !important;
 }
-.root-react-countdown-timer .middle.responsive .count {
+.middle.responsive .count {
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .middle.border {
+.middle.border {
   width: 160px;
 }
-.root-react-countdown-timer .middle.border .count {
+.middle.border .count {
   line-height: 32px;
   height: 30px;
   border: 1px solid #cfcfcf;
@@ -167,71 +167,71 @@
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .middle.border .split {
+.middle.border .split {
   line-height: 66px;
   height: 45px;
 }
-.root-react-countdown-timer .inline.middle .count {
+.inline.middle .count {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.middle.right {
+.inline.middle.right {
   display: inline-block;
   direction: ltr;
 }
-.root-react-countdown-timer .inline.middle.left {
+.inline.middle.left {
   direction: rtl;
 }
-.root-react-countdown-timer .inline.middle.responsive .split {
+.inline.middle.responsive .split {
   line-height: 35px;
   height: 35px;
 }
-.root-react-countdown-timer .inline.middle.border.responsive .split {
+.inline.middle.border.responsive .split {
   line-height: 35px;
   height: 30px;
 }
-.root-react-countdown-timer .countBox.middle.right {
+.countBox.middle.right {
   display: inline-flex;
   direction: rtl;
 }
-.root-react-countdown-timer .countBox.middle.left {
+.countBox.middle.left {
   direction: ltr;
 }
-.root-react-countdown-timer .countBox.middle.responsive .split {
+.countBox.middle.responsive .split {
   line-height: 55px;
   height: 45px;
 }
-.root-react-countdown-timer .countBox.middle.border.responsive .split {
+.countBox.middle.border.responsive .split {
   line-height: 65px;
   height: 45px;
 }
-.root-react-countdown-timer .large {
+.large {
   width: 200px;
   font-size: 22px;
 }
-.root-react-countdown-timer .large .lable {
+.large .lable {
   font-size: 12px;
 }
-.root-react-countdown-timer .large .count {
+.large .count {
   font-size: 22px;
 }
-.root-react-countdown-timer .large .split {
+.large .split {
   font-size: 22px;
 }
-.root-react-countdown-timer .large.right {
+.large.right {
   direction: ltr;
 }
-.root-react-countdown-timer .large.responsive {
+.large.responsive {
   display: flex !important;
   width: auto !important;
 }
-.root-react-countdown-timer .large.responsive .count {
+.large.responsive .count {
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .large.border {
+.large.border {
   width: 185px;
 }
-.root-react-countdown-timer .large.border .count {
+.large.border .count {
   line-height: 32px;
   height: 30px;
   border: 1px solid #cfcfcf;
@@ -241,71 +241,71 @@
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .large.border .split {
+.large.border .split {
   line-height: 75px;
   height: 45px;
 }
-.root-react-countdown-timer .inline.large .count {
+.inline.large .count {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.large .split {
+.inline.large .split {
   line-height: 33px;
   height: 45px;
 }
-.root-react-countdown-timer .inline.large.right {
+.inline.large.right {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.large.left {
+.inline.large.left {
   direction: rtl;
 }
-.root-react-countdown-timer .inline.large.responsive .split {
+.inline.large.responsive .split {
   line-height: 40px;
   height: 40px;
 }
-.root-react-countdown-timer .inline.large.border.responsive .split {
+.inline.large.border.responsive .split {
   line-height: 35px;
   height: 35px;
 }
-.root-react-countdown-timer .countBox.large .split {
+.countBox.large .split {
   line-height: 68px;
   height: 45px;
 }
-.root-react-countdown-timer .countBox.large.right {
+.countBox.large.right {
   display: inline-flex;
 }
-.root-react-countdown-timer .countBox.large.left {
+.countBox.large.left {
   direction: ltr;
 }
-.root-react-countdown-timer .countBox.large.responsive .split {
+.countBox.large.responsive .split {
   line-height: 55px;
   height: 45px;
 }
-.root-react-countdown-timer .countBox.large.border.responsive .split {
+.countBox.large.border.responsive .split {
   line-height: 70px;
   height: 45px;
 }
-.root-react-countdown-timer .big .count {
+.big .count {
   font-size: 26px;
 }
-.root-react-countdown-timer .big .split {
+.big .split {
   height: 45px;
   font-size: 26px;
 }
-.root-react-countdown-timer .big.right {
+.big.right {
   direction: ltr;
 }
-.root-react-countdown-timer .big.responsive {
+.big.responsive {
   display: flex !important;
   width: auto !important;
 }
-.root-react-countdown-timer .big.responsive .count {
+.big.responsive .count {
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .big.border {
+.big.border {
   width: 204px;
 }
-.root-react-countdown-timer .big.border .count {
+.big.border .count {
   line-height: 32px;
   height: 30px;
   border: 1px solid #cfcfcf;
@@ -315,48 +315,48 @@
   flex: 1;
   text-align: center;
 }
-.root-react-countdown-timer .big.border .split {
+.big.border .split {
   line-height: 75px;
   height: 45px;
 }
-.root-react-countdown-timer .big.border.responsive .split {
+.big.border.responsive .split {
   line-height: 35px;
   height: 35px;
 }
-.root-react-countdown-timer .inline.big .count {
+.inline.big .count {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.big .split {
+.inline.big .split {
   line-height: 33px;
 }
-.root-react-countdown-timer .inline.big.right {
+.inline.big.right {
   display: inline-block;
 }
-.root-react-countdown-timer .inline.big.left {
+.inline.big.left {
   direction: rtl;
 }
-.root-react-countdown-timer .inline.big.responsive .split {
+.inline.big.responsive .split {
   line-height: 40px;
   height: 40px;
 }
-.root-react-countdown-timer .inline.big.border.responsive .split {
+.inline.big.border.responsive .split {
   line-height: 35px;
   height: 35px;
 }
-.root-react-countdown-timer .countBox.big .split {
+.countBox.big .split {
   line-height: 68px;
 }
-.root-react-countdown-timer .countBox.big.right {
+.countBox.big.right {
   display: inline-flex;
 }
-.root-react-countdown-timer .countBox.big.left {
+.countBox.big.left {
   direction: ltr;
 }
-.root-react-countdown-timer .countBox.big.responsive .split {
+.countBox.big.responsive .split {
   line-height: 55px;
   height: 45px;
 }
-.root-react-countdown-timer .countBox.big.border.responsive .split {
+.countBox.big.border.responsive .split {
   line-height: 75px;
   height: 50px;
 }
