@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
 
-export default class CountDownTimer extends Component {
+export default class CountdownTimer extends Component {
     static propTypes = {
         className: PropTypes.string,
         count: PropTypes.number,
@@ -167,7 +167,7 @@ export default class CountDownTimer extends Component {
         const { count } = this.state;
         const { className } = this.props;
         return (
-            <div className={`root-count-down-timer ${className}`}>
+            <div className={`root-react-countdown-timer ${className}`}>
                 <div className="displayedTime">{this.format(count)}</div>
             </div>
         );

@@ -13,13 +13,13 @@ The demo app source code lives inside the `src/docs` folder.
 **npm**
 
 ```bash
-npm install count-down-timer --save
+npm install react-countdown-timer --save
 ```
 
-⚠️ Also install count-down-timer for css
+⚠️ Also install react-countdown-timer for css
 
 ```bash
-@import "~count-down-timer/lib/styles.css";
+@import "~react-countdown-timer/lib/styles.css";
 ```
 
 
@@ -27,9 +27,9 @@ npm install count-down-timer --save
 
 ```js
 import React from "react";
-import CountDownTimer from "count-down-timer";
+import CountdownTimer from "react-countdown-timer";
 
-class SimpleCountDownTimer extends React.Component {
+class SimpleCountdownTimer extends React.Component {
   render() {
     var settings = {
       count: 5432,
@@ -38,7 +38,7 @@ class SimpleCountDownTimer extends React.Component {
       noPoints: true,
     };
     return (
-      <CountDownTimer {...settings} />
+      <CountdownTimer {...settings} />
     );
   }
 }
@@ -50,12 +50,12 @@ OR
 
 ```js
 import React from "react";
-import CountDownTimer from "count-down-timer";
+import CountdownTimer from "react-countdown-timer";
 
-class SimpleCountDownTimer extends React.Component {
+class SimpleCountdownTimer extends React.Component {
   render() {
     return (
-      <CountDownTimer count={5432} border showTitle noPoints />
+      <CountdownTimer count={5432} border showTitle noPoints />
     );
   }
 }
@@ -70,10 +70,10 @@ class SimpleCountDownTimer extends React.Component {
 | ------------ | ------- | ------- | ----------- |
 | className | string | `''` | Additional CSS class for the root DOM node |
 | count | number | `0` | The count value of the timer base on second |
-| border | boolean | `false` | If the value is `true`, it means a count-down-timer has a border |
-| showTitle | boolean | `false` | If the value is `true`, it means a count-down-timer has a title top of each section |
+| border | boolean | `false` | If the value is `true`, it means a react-countdown-timer has a border |
+| showTitle | boolean | `false` | If the value is `true`, it means a react-countdown-timer has a title top of each section |
 | direction | `right` or `left` | `right` | Value to be added or subtracted on each step the slider makes. Must be greater than zero, and `max` - `min` should be evenly divisible by the step value. <br /> When `marks` is not an empty object, `step` can be set to `null`, to make `marks` as steps. |
-| noPoints | boolean | `false` | If vertical is `true`, the count-down-timer will be `:` between each section . |
+| noPoints | boolean | `false` | If vertical is `true`, the react-countdown-timer will be `:` between each section . |
 | color | string | `#000` |  |
 | backgroundColor | string | `#fff` |  |
 | responsive | boolean | `false` | If `true`, with is responsive. |
@@ -89,4 +89,4 @@ class SimpleCountDownTimer extends React.Component {
 
 ## License
 
-`count-down-timer` is released under the MIT license.
+`react-countdown-timer` is released under the MIT license.
