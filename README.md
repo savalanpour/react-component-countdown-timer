@@ -6,7 +6,7 @@ This is a simple count down timer react component.
 
 The demo app source code lives inside the `src/docs` folder. 
 
-## [Documentation](http://react-slick.neostack.com)
+## Documentation
 
 ### Installation
 
@@ -16,7 +16,7 @@ The demo app source code lives inside the `src/docs` folder.
 npm install react-countdown-timer --save
 ```
 
-⚠️ Also install react-countdown-timer for css
+[⚠️ Also install react-countdown-timer for css](https://github.com/markusenglund/react-npm-component-starter#what-about-css)
 
 ```bash
 @import "~react-countdown-timer/lib/styles.css";
