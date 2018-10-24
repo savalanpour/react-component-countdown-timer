@@ -72,7 +72,7 @@ class SimpleCountdownTimer extends React.Component {
 | count | number | `0` | The count value of the timer base on second |
 | border | boolean | `false` | If the value is `true`, it means a react-countdown-timer has a border |
 | showTitle | boolean | `false` | If the value is `true`, it means a react-countdown-timer has a title top of each section |
-| direction | `right` or `left` | `right` | Value to be added or subtracted on each step the slider makes. Must be greater than zero, and `max` - `min` should be evenly divisible by the step value. <br /> When `marks` is not an empty object, `step` can be set to `null`, to make `marks` as steps. |
+| direction | `right` or `left` | `left` | Value to be added or subtracted on each step the slider makes. Must be greater than zero, and `max` - `min` should be evenly divisible by the step value. <br /> When `marks` is not an empty object, `step` can be set to `null`, to make `marks` as steps. |
 | noPoints | boolean | `false` | If vertical is `true`, the react-countdown-timer will be `:` between each section . |
 | color | string | `#000` |  |
 | backgroundColor | string | `#fff` |  |

@@ -1,6 +1,6 @@
 // stylelint-disable no-descending-specificity
 .root-react-countdown-timer{
-  .left {
+  .right {
     direction: ltr;
   }
 
@@ -40,12 +40,12 @@
       display: inline-block;
     }
 
-    &.right {
+    &.left {
       display: inline-block;
 
     }
 
-    &.left {
+    &.right {
       direction: rtl;
       display: inline-flex;
     }
@@ -70,12 +70,12 @@
       text-align: center;
     }
 
-    &.right {
+    &.left {
       display: inline-flex;
       direction: rtl;
     }
 
-    &.left {
+    &.right {
       direction: ltr;
     }
 

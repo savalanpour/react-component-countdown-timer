@@ -27,7 +27,7 @@ export default class CountdownTimer extends Component {
         count: 0,
         border: false,
         showTitle: false,
-        direction: 'right',
+        direction: 'left',
         noPoints: false,
         color: '#000',
         backgroundColor: '#fff',

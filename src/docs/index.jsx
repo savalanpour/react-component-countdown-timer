@@ -90,7 +90,7 @@ function Demo() {
         </pre>
                 <div className="title">border & showTitle & direction</div>
                 <div style={{textAlign: 'center', margin: '0 auto', width: '160px'}}>
-                    <CountdownTimer count={5432} border showTitle noPoints direction="left"/>
+                    <CountdownTimer count={5432} border showTitle noPoints direction="right"/>
                 </div>
                 <pre>
             <code>
