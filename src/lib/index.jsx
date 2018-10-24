@@ -12,7 +12,8 @@ export default class CountdownTimer extends Component {
         responsive: PropTypes.bool,
         color: PropTypes.string,
         backgroundColor: PropTypes.string,
-        size: PropTypes.string,
+        size: PropTypes.number,
+        labelSize: PropTypes.number,
         hideDay: PropTypes.bool,
         hideHours: PropTypes.bool,
         dayTitle: PropTypes.string,
@@ -31,7 +32,8 @@ export default class CountdownTimer extends Component {
         color: '#000',
         backgroundColor: '#fff',
         responsive: false,
-        size: 'middle',
+        size: 18,
+        labelSize: 12,
         hideDay: false,
         hideHours: false,
         dayTitle: 'Day',
@@ -85,6 +87,7 @@ export default class CountdownTimer extends Component {
             hourTitle,
             minuteTitle,
             secondTitle,
+            labelSize,
         } = this.props;
         let seconds = time % 60;
         let minutes = Math.floor(time / 60) % 60;
@@ -97,18 +100,18 @@ export default class CountdownTimer extends Component {
         if (showTitle) {
             const borderClass = border ? 'border' : '';
             const responsiveClass = responsive ? 'responsive' : '';
-            const classBox = `countBox ${direction} ${size}`;
+            const classBox = `countBox ${direction}`;
             return (
-                <div className={`${classBox} ${borderClass} ${responsiveClass}`}>
+                <div style={{fontSize: `${size}px`}} className={`${classBox} ${borderClass} ${responsiveClass}`}>
                     <div className="countBoxItem">
-                        <div className={"lable"}>{secondTitle}</div>
+                        <div style={{fontSize: `${labelSize}px`}} className={"label"}>{secondTitle}</div>
                         <div className={"count"} style={{color, backgroundColor}}>
                             {seconds}
                         </div>
                     </div>
                     {!noPoints && <span className={"split"}>:</span>}
                     <div className={"countBoxItem"}>
-                        <div className={"lable"}>{minuteTitle}</div>
+                        <div style={{fontSize: `${labelSize}px`}} className={"label"}>{minuteTitle}</div>
                         <div className={"count"} style={{color, backgroundColor}}>
                             {minutes}
                         </div>
@@ -116,7 +119,7 @@ export default class CountdownTimer extends Component {
                     {!hideHours && !noPoints && <span className={"split"}>:</span>}
                     {!hideHours && (
                         <div className={"countBoxItem"}>
-                            <div className={"lable"}>{hourTitle}</div>
+                            <div style={{fontSize: `${labelSize}px`}} className={"label"}>{hourTitle}</div>
                             <div className={"count"} style={{color, backgroundColor}}>
                                 {hours}
                             </div>
@@ -126,7 +129,7 @@ export default class CountdownTimer extends Component {
 
                     {!hideDay && (
                         <div className={"countBoxItem"}>
-                            <div className={"lable"}>{dayTitle}</div>
+                            <div style={{fontSize: `${labelSize}px`}} className={"label"}>{dayTitle}</div>
                             <div className={"count"} style={{color, backgroundColor}}>
                                 {day}
                             </div>
@@ -137,9 +140,9 @@ export default class CountdownTimer extends Component {
         }
         const borderClass = border ? 'border' : '';
         const responsiveClass = responsive ? 'responsive' : '';
-        const classBox = `inline ${direction} ${size}`;
+        const classBox = `inline ${direction}`;
         return (
-            <div className={`${classBox} ${borderClass} ${responsiveClass}`}>
+            <div style={{fontSize: `${size}px`}} className={`${classBox} ${borderClass} ${responsiveClass}`}>
                 {!hideDay && (
                     <span className={"count"} style={{ color, backgroundColor }}>
                     {day}

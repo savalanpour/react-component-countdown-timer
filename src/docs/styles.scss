@@ -1,3 +1,4 @@
+// stylelint-disable no-descending-specificity
 .root-react-countdown-timer{
   .left {
     direction: ltr;
@@ -86,4 +87,37 @@
       }
     }
   }
+}
+
+
+
+.count-down-react-box .count-down-react .title {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 50px 0 0;
+  background-color: #4db1c2;
+  color: #fff;
+}
+
+.count-down-react {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}
+
+.count-down-react pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.count-down-react-box .count-down-react .root-react-countdown-timer {
+  margin: 15px 0;
 }

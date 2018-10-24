@@ -77,7 +77,8 @@ class SimpleCountdownTimer extends React.Component {
 | color | string | `#000` |  |
 | backgroundColor | string | `#fff` |  |
 | responsive | boolean | `false` | If `true`, with is responsive. |
-| size | `small` or `middle` or `large` or `big` | `middle` |  |
+| size | `number` | `18` | count number font size
+| labelSize | `number` | `12` | if showTitle is true this set label font size
 | responsive | boolean | `false` | If `true`, with is responsive. |
 | hideDay | boolean | `false` | If `true`, hide day. |
 | hideHours | boolean | `false` | If `true`, hide hours . |
