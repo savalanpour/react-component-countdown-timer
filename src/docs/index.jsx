@@ -94,7 +94,7 @@ function Demo() {
                 </div>
                 <pre>
             <code>
-                {'<CountdownTimer count={5432} border showTitle noPoints direction="left"/>'}
+                {'<CountdownTimer count={5432} border showTitle noPoints direction="right"/>'}
             </code>
         </pre>
                 <div className="title">border & showTitle & responsive</div>
