@@ -1,5 +1,5 @@
 {
-  "name": "react-countdown-timer",
+  "name": "react-component-countdown-timer",
   "version": "0.1.0",
   "description": "Count down timer component for react",
   "main": "lib/index.js",
@@ -39,9 +39,9 @@
     "webpack-dev-server": "^3.1.3"
   },
   "author": "Majid Savalanpour <m.savalanpour@gmail.com>",
-  "homepage": "https://github.com/savalanpour/react-countdown-timer",
+  "homepage": "https://github.com/savalanpour/react-component-countdown-timer",
   "repository": {
     "type": "git",
-    "url": "git@github.com:savalanpour/react-countdown-timer.git"
+    "url": "git@github.com:savalanpour/react-component-countdown-timer.git"
   }
 }

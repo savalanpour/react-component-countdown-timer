@@ -170,7 +170,7 @@ export default class CountdownTimer extends Component {
         const { count } = this.state;
         const { className } = this.props;
         return (
-            <div className={`root-react-countdown-timer ${className}`}>
+            <div className={`root-react-component-countdown-timer ${className}`}>
                 <div className="displayedTime">{this.format(count)}</div>
             </div>
         );
