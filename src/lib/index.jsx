@@ -63,7 +63,7 @@ export default class CountdownTimer extends Component {
         this.timer = setInterval(() => {
             const newCount = this.state.count - 1;
             this.setState({ count: newCount >= 0 ? newCount : 0 }, () => {
-                if (newCount === 0) {
+                if (this.state.count === 0) {
                     this.props.onEnd();
                 }
             });
