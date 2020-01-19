@@ -55,6 +55,10 @@ export default class CountdownTimer extends Component {
         this.handleStart();
     }
 
+    componentWillUnmount() {
+        clearInterval(this.timer);
+    }
+
     handleStart() {
         this.timer = setInterval(() => {
             const newCount = this.state.count - 1;
