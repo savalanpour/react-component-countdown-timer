@@ -99,8 +99,8 @@ export default class CountdownTimer extends Component {
         let hours = Math.floor(time / 3600) % 24;
         let day = Math.floor(time / 86400);
         day = day.toString().length === 1 ? `0${day}` : day;
-        minutes = Number.parseInt(minutes.toString().length === 1 ? "0".concat(minutes) : minutes);
-        seconds = Number.parseInt(seconds.toString().length === 1 ? "0".concat(seconds) : seconds);
+        minutes = minutes.toString().length === 1 ? `0${minutes}` : minutes;
+        seconds = seconds.toString().length === 1 ? `0${seconds}` : seconds;
         hours = hours.toString().length === 1 ? `0${hours}` : hours;
         if (showTitle) {
             const borderClass = border ? 'border' : '';
