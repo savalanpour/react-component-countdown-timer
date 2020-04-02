@@ -69,6 +69,7 @@ class SimpleCountdownTimer extends React.Component {
 | Name         | Type    | Default | Description |
 | ------------ | ------- | ------- | ----------- |
 | className | string | `''` | Additional CSS class for the root DOM node |
+| id | string | `''` | Additional id for the root DOM node |
 | count | number | `0` | The count value of the timer base on second |
 | border | boolean | `false` | If the value is `true`, it means a react-component-countdown-timer has a border |
 | showTitle | boolean | `false` | If the value is `true`, it means a react-component-countdown-timer has a title top of each section |
