@@ -23,6 +23,7 @@ export default class CountdownTimer extends Component {
             this.setState({ count: newCount >= 0 ? newCount : 0 }, () => {
                 if (this.state.count === 0) {
                     this.props.onEnd();
+                    clearInterval(this.timer);
                 }
             });
         }, 1000);
@@ -56,10 +57,10 @@ export default class CountdownTimer extends Component {
         let minutes = Math.floor(time / 60) % 60;
         let hours = Math.floor(time / 3600) % 24;
         let day = Math.floor(time / 86400);
-        day = day.toString().length === 1 ? `0${day}` : day;
-        minutes = minutes.toString().length === 1 ? `0${minutes}` : minutes;
-        seconds = seconds.toString().length === 1 ? `0${seconds}` : seconds;
-        hours = hours.toString().length === 1 ? `0${hours}` : hours;
+        day = day < 10 ? `0${day}` : day;
+        minutes = minutes < 10 ? `0${minutes}` : minutes;
+        seconds = seconds < 10 ? `0${seconds}` : seconds;
+        hours = hours < 10 ? `0${hours}` : hours;
         if (showTitle) {
             const borderClass = border ? 'border' : '';
             const responsiveClass = responsive ? 'responsive' : '';
