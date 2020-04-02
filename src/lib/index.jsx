@@ -2,52 +2,10 @@ import React, { Component } from "react";
 import PropTypes from 'prop-types';
 
 export default class CountdownTimer extends Component {
-    static propTypes = {
-        className: PropTypes.string,
-        count: PropTypes.number,
-        border: PropTypes.bool,
-        showTitle: PropTypes.bool,
-        direction: PropTypes.oneOf(['right', 'left']),
-        noPoints: PropTypes.bool,
-        responsive: PropTypes.bool,
-        color: PropTypes.string,
-        backgroundColor: PropTypes.string,
-        size: PropTypes.number,
-        labelSize: PropTypes.number,
-        hideDay: PropTypes.bool,
-        hideHours: PropTypes.bool,
-        dayTitle: PropTypes.string,
-        hourTitle: PropTypes.string,
-        minuteTitle: PropTypes.string,
-        secondTitle: PropTypes.string,
-        onEnd: PropTypes.func,
-    };
-
-    static defaultProps = {
-        count: 0,
-        border: false,
-        showTitle: false,
-        direction: 'left',
-        noPoints: false,
-        color: '#000',
-        backgroundColor: '#fff',
-        responsive: false,
-        size: 18,
-        labelSize: 12,
-        hideDay: false,
-        hideHours: false,
-        dayTitle: 'Day',
-        hourTitle: 'Hour',
-        minuteTitle: 'Min',
-        secondTitle: 'Sec',
-        className: '',
-        onEnd: () => {},
-    };
-
     constructor(props) {
         super(props);
         this.state = {
-            count: props.count,
+            count: parseInt(props.count, 10),
         };
     }
 
@@ -173,11 +131,55 @@ export default class CountdownTimer extends Component {
 
     render() {
         const { count } = this.state;
-        const { className } = this.props;
+        const { className, id } = this.props;
         return (
-            <div className={`root-react-component-countdown-timer ${className}`}>
+            <div className={`root-react-component-countdown-timer ${className}`} id={id}>
                 <div className="displayedTime">{this.format(count)}</div>
             </div>
         );
     }
 }
+
+CountdownTimer.propTypes = {
+    className: PropTypes.string,
+    id: PropTypes.string,
+    count: PropTypes.number,
+    border: PropTypes.bool,
+    showTitle: PropTypes.bool,
+    direction: PropTypes.oneOf(['right', 'left']),
+    noPoints: PropTypes.bool,
+    responsive: PropTypes.bool,
+    color: PropTypes.string,
+    backgroundColor: PropTypes.string,
+    size: PropTypes.number,
+    labelSize: PropTypes.number,
+    hideDay: PropTypes.bool,
+    hideHours: PropTypes.bool,
+    dayTitle: PropTypes.string,
+    hourTitle: PropTypes.string,
+    minuteTitle: PropTypes.string,
+    secondTitle: PropTypes.string,
+    onEnd: PropTypes.func,
+};
+
+CountdownTimer.defaultProps = {
+    count: 0,
+    border: false,
+    showTitle: false,
+    direction: 'left',
+    noPoints: false,
+    color: '#000',
+    backgroundColor: '#fff',
+    responsive: false,
+    size: 18,
+    labelSize: 12,
+    hideDay: false,
+    hideHours: false,
+    dayTitle: 'Day',
+    hourTitle: 'Hour',
+    minuteTitle: 'Min',
+    secondTitle: 'Sec',
+    className: '',
+    id: '',
+    onEnd: () => {},
+};
